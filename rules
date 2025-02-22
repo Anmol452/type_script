@@ -1,2 +1,22 @@
 flie name script.ts
 ts to convert tsc script.ts
+
+
+// comiple and use multiple Files
+
+ 1) // Generate ts config file
+$ tsc -init
+$ tsc -w
+
+//  Include and Exclude file folder
+
+2) // how to Exclude file and folder
+tsconfig.json file me exclude add karana 
+
+"exclude":[
+ "fiename.ts",
+ "foldername"
+]
+
+3) // how to Include
+
