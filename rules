@@ -15,8 +15,16 @@ tsconfig.json file me exclude add karana
 
 "exclude":[
  "fiename.ts",
- "foldername"
+ "foldername",
+ "foldername/fiename.ts",
+ "*/fiename.ts" 
 ]
 
 3) // how to Include
 
+"include":[
+ "fiename.ts",
+ "foldername",
+ "foldername/fiename.ts",
+ "*/fiename.ts" 
+]
