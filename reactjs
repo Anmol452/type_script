@@ -1,0 +1,4 @@
+https://create-react-app.dev/docs/getting-started/
+
+installation
+$ npx create-react-app my-app --template typescript
