@@ -1,0 +1,21 @@
+let num:number[] = [1,2,3,4,5]
+
+// map doubling each number
+
+let doublingData:number[] = num.map((curVal:number)=> curVal*2)
+console.log(doublingData) 
+
+// convert to string map
+
+let numberToString = num.map((curVal)=> curVal.toString())
+console.log(numberToString) 
+
+//   filtering even number
+
+let evenNumber:number[] = num.filter((curVal:number)=> curVal % 2 === 0)
+console.log(evenNumber) 
+
+//   filtering greater number 3
+
+let greaterNumber:number[] = num.filter((curVal:number)=> curVal > 3 )
+console.log(greaterNumber)
